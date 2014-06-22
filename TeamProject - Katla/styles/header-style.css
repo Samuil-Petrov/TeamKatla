@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     box-sizing: border-box;
 }/*General reset*/
 
@@ -8,28 +8,14 @@ body{
     background: rgb(229, 229, 229);
 }
 
+html{
+    font-size: 62.5%;
+}
+
 .header-wrapper{
     width: 100%;
-    height: 400px;
+    height: 45%;
     position: absolute;
-
-    /*Center the header using flexbox*/
-     /*Internet Explorer 10 */
-    display:-ms-flexbox;
-    -ms-flex-pack:center;
-
-     /*Firefox */
-    display:-moz-box-flex;
-    -moz-box-pack:center;
-
-     /*Safari, Chrome, and Opera */
-    display:-webkit-box;
-    -webkit-box-pack:center;
-
-     /*W3C */
-    display:box;
-    box-pack:center;
-
     background-image: url("../images/Wallpaper2.jpg");
     background-repeat: no-repeat;
     background-size: auto;
@@ -39,14 +25,16 @@ body{
 
 .header{
     position: relative;
-    width: 900px;
-    height: 175px;
-    margin-top: 50px;
+    width: 80%;
+    height: 50%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#logo{
-    width: 90px;
-    height: 90px;
+.logo-btn{
+    width: 70px;
+    height: 70px;
     margin: 0 auto;
     background: rgba(233, 206, 178, 0.8);
 
@@ -70,52 +58,30 @@ body{
     box-pack:center;
     box-align:center;
 
-    border-top-left-radius: 7px;
-    border-bottom-right-radius: 7px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
-#logo img{
-    width: 90px;
-    height: 90px;
+.logo-btn, .logo-btn:active, .logo-btn:focus{
+    margin: 20px auto;
+    border: none;
+    border-radius: 2px;
 }
 
 /*Menu and submenu - style*/
-
 /*Menu Section*/
 .menu{
-    position: absolute;
-    margin-top: 10px;
-    /*text-align: center;*/
-    bottom: 0;
-    width: 900px;
-    height: 75px;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 80%;
+    height: 32%;
     border: 2px solid rgba(78, 50, 27, 0.7);
-    border-top-left-radius: 7px;
-    border-bottom-right-radius: 7px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     background: rgba(233, 206, 178, 0.8);
-
-    /* Internet Explorer 10 */
-    display:-ms-flexbox;
-    -ms-flex-pack:center;
-    -ms-flex-align:center;
-
-    /* Firefox */
-    display:-moz-box-flex;
-    -moz-box-pack:center;
-    -moz-box-align:center;
-
-    /* Safari, Chrome, and Opera */
-    display:-webkit-box;
-    -webkit-box-pack:center;
-    -webkit-box-align:center;
-
-    /* W3C */
-    display:box;
-    box-pack:center;
-    box-align:center;
 }
-
-
 
 ul li{
     list-style: none;
@@ -124,15 +90,16 @@ ul li{
 .menu-items li{
     display: inline-block;
     padding: 7px;
-    margin-right: 12px;
+    margin-top: 1%;
+    margin-right: 20px;
     color: rgb(43, 43, 43);
-    font-size: 14pt;
+    font-size: 2rem;
     font-family: Calibri;
 
-    -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    -o-transition: all 0.2s ease;
-    transition: all 0.2s ease;
+    -webkit-transition: 0.2s ease;
+    -moz-transition: 0.2s ease;
+    -o-transition: 0.2s ease;
+    transition: 0.2s ease;
 }
 
 .menu-items li:hover{
@@ -142,23 +109,30 @@ ul li{
     border: 2px solid rgb(78, 50, 27);
 }
 
+.menu-items li a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .submenu{
     background: transparent;
+    padding: 0;
 }
 
 .submenu li{
-    width: 180px;
-    height: 35px;
-    margin-bottom: 5px;
+    width: 250px;
+    height: 0.001%;
+    margin-bottom: 5%;
     display: block;
     border-top-left-radius: 7px;
     border-bottom-right-radius: 7px;
     border: 2px solid rgb(247, 173, 88);
-    background: rgb(78, 50, 27);
-    color: #ffffff;
+    background: rgba(78, 50, 27, 0.95);
+    color: rgb(210, 210, 210);
     font-family: Consolas;
-    font-size: 16pt;
+    font-size: 2rem;
     text-align: center;
+    padding: 0;
 
     -webkit-transition: 0.2s ease;
     -moz-transition: 0.2s ease;
@@ -166,16 +140,23 @@ ul li{
     transition: 0.2s ease;
 }
 
+.submenu li a {
+    color: inherit;
+    text-decoration: none;
+    padding: 0;
+}
+
 .submenu{
     display: none;
     position: absolute;
-    width: 150px;
-    padding-top: 15px;
+    width: 15%;
+    padding-top: 1.2%;
 }
 
-.submenu li:hover{
+.submenu li a:hover{
     background: rgb(247, 173, 88);
     color: rgb(78, 50, 27);
+    border-radius: inherit;
 }
 
 /*Show submenu items*/

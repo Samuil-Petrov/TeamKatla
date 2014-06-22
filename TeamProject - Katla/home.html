@@ -1,41 +1,69 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home</title>
-    <link href="styles/header-style.css" rel="stylesheet" type="text/css">
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="styles/header-style.css"/>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--Icon-->
+    <link rel="shortcut icon" href="images/KatlaTeamIcon.ico">
 </head>
 <body>
     <div class="header-wrapper">
-        <header id="header" class="header">
-            <div id="logo">
-                <img src="images/KatlaLogo.png">
-            </div>
-            <nav class="menu">
+        <header class="navbar">
+            <button type="button" class="btn-navbar logo-btn" data-toggle="collapse" data-target=".nav-collapse">
+                <img src="images/KatlaTeamLogo.png">
+            </button>
+            <nav class="menu nav nav-collapse collapse">
                 <ul class="menu-items">
-                    <li>
-                        Начало
+                    <li class="active"><a href="">
+                            Начало
+                        </a>
                     </li>
                     <li>
-                        Минутки за реклама
+                        <a href="">
+                            Минутки за реклама
+                        </a>
+                    </li>
+                    <li><a href="">
+                            I лайк you
+                        </a>
                     </li>
                     <li>
-                        I лайк you
+                        <a href="">
+                            Валидира се, не се валидира
+                        </a>
                     </li>
-                    <li>
-                        За всеки по нещо
-                        <ul class="submenu">
-                            <li>Нещо си</li>
-                            <li>Нещо си</li>
-                            <li>Нещо си</li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">За всеки по нещо<b class="caret"></b></a>
+                        <ul class="submenu dropdown-menu">
+                            <li>
+                                <a href="">За кономаните</a>
+                            </li>
+                            <li>
+                                <a href="">За ценители</a>
+                            </li>
+                            <li>
+                                <a href="">За любознателните</a>
+                            </li>
+                            <li>
+                                <a href="">10 прости правила</a>
+                            </li>
                         </ul>
-                    </li>
-                    <li>
-                        Валидира се, не се валидира
+
                     </li>
                 </ul>
             </nav><!--Navigation-->
         </header>
     </div><!---Header Wrapper-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
