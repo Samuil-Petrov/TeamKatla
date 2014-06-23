@@ -5,7 +5,13 @@
 }/*General reset*/
 
 body{
-    background: rgb(229, 229, 229);
+    /*background: rgb(229, 229, 229);*/
+
+    background: -o-linear-gradient(bottom, #D2D2D2, #21CEA0, #D2D2D2);
+    background: -moz-linear-gradient(bottom, #D2D2D2, #21CEA0, #D2D2D2);
+    background: -webkit-linear-gradient(bottom, #D2D2D2, #21CEA0, #D2D2D2);
+    backgroun: -ms-linear-gradient(bottom, #D2D2D2, #21CEA0, #D2D2D2);
+    background: linear-gradient(to bottom, #D2D2D2, #21CEA0, #D2D2D2);
 }
 
 html{
@@ -24,7 +30,7 @@ html{
 }
 
 .header{
-    position: relative;
+    position: absolute;
     width: 80%;
     height: 50%;
     margin-top: 5%;

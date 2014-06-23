@@ -1,69 +1,113 @@
 <!DOCTYPE html>
 <html>
+
 <head lang="en">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home</title>
     <!--Custom CSS-->
-    <link rel="stylesheet" href="styles/header-style.css"/>
+    <link href="styles/home-style.css" rel="stylesheet" type="text/css">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!--Icon-->
     <link rel="shortcut icon" href="images/KatlaTeamIcon.ico">
+    <style>
+
+        div.well{
+            text-align: center;
+            color: rgb(80, 80, 80);
+        }
+
+        div.well{
+            background-image: url("images/orange-background.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        div.well p{
+            color: rgb(50, 50, 50);
+            font-size: 1.6rem;
+        }
+        a.btn-primary{
+            background-image: -o-linear-gradient(bottom, #0B1E44 0%, #21CEA0 100%, #263960 100%, #21CEA0 100%, #0B1E44 100%);
+            background-image: -moz-linear-gradient(bottom, #0B1E44 0%, #21CEA0 100%, #263960 100%, #21CEA0 100%, #0B1E44 100%);
+            background-image: -webkit-linear-gradient(bottom, #0B1E44 0%, #21CEA0 100%, #263960 100%, #21CEA0 100%, #0B1E44 100%);
+            background-image: -ms-linear-gradient(bottom, #0B1E44 0%, #21CEA0 100%, #263960 100%, #21CEA0 100%, #0B1E44 100%);
+            background-image: linear-gradient(to bottom, #0B1E44 0%, #21CEA0 100%, #263960 100%, #21CEA0 100%, #0B1E44 100%);
+        }
+
+        footer.site-footer{
+            height: 400px;
+            width: 100%;
+            position: absolute;
+            /*top: 820px;*/
+            background-image: url("images/SoftUniRightMan.png"), url("images/blue-footer.png");
+            background-position: 90% bottom, bottom;
+            background-repeat: no-repeat, no-repeat;
+            background-size: auto, cover;
+        }
+
+        div.push{
+            height: 400px;
+        }
+
+    </style>
 </head>
+
 <body>
-    <div class="header-wrapper">
-        <header class="navbar">
-            <button type="button" class="btn-navbar logo-btn" data-toggle="collapse" data-target=".nav-collapse">
-                <img src="images/KatlaTeamLogo.png">
-            </button>
-            <nav class="menu nav nav-collapse collapse">
-                <ul class="menu-items">
-                    <li class="active"><a href="">
-                            Начало
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            Минутки за реклама
-                        </a>
-                    </li>
-                    <li><a href="">
-                            I лайк you
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            Валидира се, не се валидира
-                        </a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">За всеки по нещо<b class="caret"></b></a>
-                        <ul class="submenu dropdown-menu">
-                            <li>
-                                <a href="">За кономаните</a>
-                            </li>
-                            <li>
-                                <a href="">За ценители</a>
-                            </li>
-                            <li>
-                                <a href="">За любознателните</a>
-                            </li>
-                            <li>
-                                <a href="">10 прости правила</a>
-                            </li>
-                        </ul>
+    <!--<audio autoplay="autoplay" loop="loop" >-->
+        <!--<source src="sounds/Village%20People%20-%20YMCA.mp3" type="audio/mp3">-->
+    <!--</audio>-->
+    <div id="header-wrapper"></div><!---Header Wrapper-->
 
-                    </li>
-                </ul>
-            </nav><!--Navigation-->
-        </header>
-    </div><!---Header Wrapper-->
+    <!-- Three columns of text below the carousel -->
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="well">
+                        <div id="wrapper">
+                            <img class="img-circle circle-size image-border" data-src="holder.js/140x140" alt="140x140" src="images/beer-smile.jpg">
+                        </div>
 
+                        <h2>Ще пием ли бира?</h2>
+                        <p>Програмистът е програмист с бира в ръка...и без бъгове в кода. Провери заслужаваш ли си бирата или не. Дойде часът на истината - нашият калкулатор е безпристрастен съдия.</p>
+                        <p><a class="btn btn-primary" href="#">Keep calm and drink beer :)</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="well">
+                        <img class="img-circle circle-size" data-src="holder.js/140x140" alt="140x140" src="images/soft-uni-metro-style.png">
+                        <h2>Животът в Софт Уни</h2>
+                        <p>Програмиране и приятели, предизвикателства и нови хоризанти...и забавление. Позабавлявай се с някои избрани моменти - все пак светът е оцелял, защото се е смял.</p>
+                        <p><a class="btn btn-primary" href="#">Keep calm and watch the video :)</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="well">
+                        <img class="img-circle circle-size" data-src="holder.js/140x140" alt="140x140" src="images/gamer.jpg">
+                        <h2>Играй и учи</h2>
+                        <p>Забавлението и учението вървят ръка за ръка. Опитай нашата игра и ще се убедиш. HTML и CSS са твоите оръжия в играта. Целта на играта? Продължи и ще разбереш.</p>
+                        <p><a class="btn btn-primary" href="#">Keep calm and play the game</a></p>
+                    </div>
+                </div>
+            </div><!-- /.row -->
+        </div>
+        <div class="push"></div>
+    </main>
+    <footer class="site-footer">
+        fhgfhgfhfghfghgfhfghffgh
+    </footer>
+    <!--Scripts-->
+    <script src="scripts/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#header-wrapper').load('header-template.html');
+        } );
+    </script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+main{
+    position: relative;
+    top: 400px;
+}
+
+.circle-size{
+    height: 140px;
+    width: 140px;
+}
