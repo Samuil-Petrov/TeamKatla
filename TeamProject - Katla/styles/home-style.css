@@ -8,9 +8,19 @@ html{
     font-size: 62.5%;
 }
 
+.push-content{
+    min-height: 400px;
+}
+
+@media (max-width: 768px) {
+    .push-content{
+        min-height: 550px;
+    }
+}
+
 main{
     position: relative;
-    top: 400px;
+    /*top: 400px;*/
 }
 
 .circle-size{

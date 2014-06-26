@@ -8,7 +8,11 @@
     <!--Custom CSS-->
     <link href="styles/home-style.css" rel="stylesheet" type="text/css">
     <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="dist/html5shiv.js"></script>
+    <![endif]-->
     <!--Icon-->
     <link rel="shortcut icon" href="images/KatlaTeamIcon.ico">
     <style>
@@ -39,17 +43,11 @@
             height: 400px;
             width: 100%;
             position: absolute;
-            /*top: 820px;*/
             background-image: url("images/SoftUniRightMan.png"), url("images/blue-footer.png");
             background-position: 90% bottom, bottom;
             background-repeat: no-repeat, no-repeat;
             background-size: auto, cover;
         }
-
-        div.push{
-            height: 400px;
-        }
-
     </style>
 </head>
 
@@ -57,9 +55,9 @@
     <audio autoplay="autoplay" loop="loop" >
         <source src="sounds/Village%20People%20-%20YMCA.mp3" type="audio/mp3">
     </audio>
-    <div id="header-wrapper"></div><!---Header Wrapper-->
-
-    <!-- Three columns of text content -->
+    <div id="header-wrapper">
+    </div><!---Header Wrapper-->
+    <div class="push-content"></div>
     <main>
         <div class="container">
             <div class="row">
@@ -91,7 +89,6 @@
                 </div>
             </div><!-- /.row -->
         </div><!-- /.container -->
-        <div class="push"></div>
     </main>
     <footer class="site-footer">
         Some text Some text
@@ -99,14 +96,12 @@
 
     <!--Scripts-->
     <script src="scripts/jquery-1.11.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
             $('#header-wrapper').load('header-template.html');
         } );
     </script>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
