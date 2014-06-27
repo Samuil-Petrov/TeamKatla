@@ -28,15 +28,6 @@ html{
             border-bottom: 2px solid rgb(118, 119, 122);
         }
 
-            .header{
-                position: absolute;
-                width: 90%;
-                height: 50%;
-                margin-top: 5%;
-                margin-left: auto;
-                margin-right: auto;
-            }
-
                 .logo{
                     width: 70px;
                     height: 70px;
@@ -78,7 +69,7 @@ html{
                 }
 
                 .menu{
-                    padding: 10px;
+                    padding: 10px 0 10px 0;
                     border: 2px solid rgba(78, 50, 27, 0.7);
                     border-top-left-radius: 15px;
                     border-bottom-right-radius: 15px;

@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+.push-content{
+    min-height: 400px;
+}
+
+@media (max-width: 768px) {
+    .push-content{
+        min-height: 550px;
+    }
+}
+
+.video-wrapper{
+    text-align: center;
+    box-shadow:
+    0 0 0 10px rgba(100, 100, 100, 0.6);
+    -moz-box-shadow:
+    0 0 0 10px rgba(210, 210, 210, 0.6);
+    -webkit-shadow:
+    0 0 0 10px rgba(150, 150, 150, 0.6);
+    text-align: center;
+    margin: 0 auto 20px auto;
+    min-height: 600px;
+    background: url("../images/orange-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+.img-wrapper{
+    margin: 0 auto 20px auto;
+    max-height: 380px;
+    max-width: 380px;
+}
+
+.img-wrapper img{
+    max-height: 380px;
+    max-width: 380px;
+}
