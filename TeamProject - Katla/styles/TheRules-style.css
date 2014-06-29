@@ -1,0 +1,41 @@
+div.well {
+    text-align: center;
+    color: rgb(80, 80, 80);
+}
+
+div.well {
+    background-image: url("../images/orange-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.shadow{
+    box-shadow:
+    0 0 0 10px rgba(100, 100, 100, 0.6);
+    -moz-box-shadow:
+    0 0 0 10px rgba(210, 210, 210, 0.6);
+    -webkit-shadow:
+    0 0 0 10px rgba(150, 150, 150, 0.6);
+}
+
+div.well p {
+    color: rgb(50, 50, 50);
+    font-size: 2rem;
+}
+
+a.btn-primary {
+    background-image: -o-linear-gradient(bottom, #0B1E44 0%, #21CEA0 100%, #263960 100%, #21CEA0 100%, #0B1E44 100%);
+    background-image: -moz-linear-gradient(bottom, #0B1E44 0%, #21CEA0 100%, #263960 100%, #21CEA0 100%, #0B1E44 100%);
+    background-image: -webkit-linear-gradient(bottom, #0B1E44 0%, #21CEA0 100%, #263960 100%, #21CEA0 100%, #0B1E44 100%);
+    background-image: -ms-linear-gradient(bottom, #0B1E44 0%, #21CEA0 100%, #263960 100%, #21CEA0 100%, #0B1E44 100%);
+    background-image: linear-gradient(to bottom, #0B1E44 0%, #21CEA0 100%, #263960 100%, #21CEA0 100%, #0B1E44 100%);
+}
+
+footer.site-footer {
+    height: 350px;
+    width: 100%;
+    position: absolute;
+    background-image: url("../images/minion.png"), url("images/blue-footer.png");
+    background-position: 90% bottom, bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, cover;
+}
