@@ -59,6 +59,20 @@ video{
     vertical-align: middle;
 }
 
+.sources h4{
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.sources ul li{
+    margin-bottom: 5px;
+    list-style-type: none;
+}
+
+.sources ul li a{
+    font-size: 1.8rem;
+}
+
 /*Footer*/
 .push-footer{
     width: 100%;
