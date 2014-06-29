@@ -23,61 +23,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TheRules.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TheRules.html">
+      <file leaf-file-name="i-like-you-style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/i-like-you-style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8406593" vertical-offset="663" max-vertical-offset="2244">
-              <caret line="66" column="139" selection-start-line="66" selection-start-column="139" selection-end-line="66" selection-end-column="139" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="3621">
+              <caret line="33" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="207" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home.html">
+      <file leaf-file-name="life-in-softuni-style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/life-in-softuni-style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.7307692" vertical-offset="1144" max-vertical-offset="1717">
-              <caret line="73" column="46" selection-start-line="73" selection-start-column="46" selection-end-line="73" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="3808">
+              <caret line="31" column="29" selection-start-line="0" selection-start-column="0" selection-end-line="218" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fun.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fun.html">
+      <file leaf-file-name="TheRules-style.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/styles/TheRules-style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3145">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cinema.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cinema.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="2465">
-              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="life-in-softuni.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/life-in-softuni.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.115385" vertical-offset="238" max-vertical-offset="1530">
-              <caret line="31" column="88" selection-start-line="31" selection-start-column="88" selection-end-line="31" selection-end-column="88" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="for-the-curious.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/for-the-curious.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.807693" vertical-offset="2701" max-vertical-offset="3264">
-              <caret line="180" column="27" selection-start-line="180" selection-start-column="27" selection-end-line="180" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.52307695" vertical-offset="0" max-vertical-offset="782">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -103,17 +73,17 @@
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/styles/for-the-curious-style.css" />
         <option value="$PROJECT_DIR$/styles/life-in-softuni-style.css" />
-        <option value="$PROJECT_DIR$/styles/i-like-you-style.css" />
-        <option value="$PROJECT_DIR$/i-like-you.html" />
-        <option value="$PROJECT_DIR$/header-template.html" />
         <option value="$PROJECT_DIR$/home.html" />
         <option value="$PROJECT_DIR$/styles/Cinema-style.css" />
-        <option value="$PROJECT_DIR$/Cinema.html" />
         <option value="$PROJECT_DIR$/styles/home-style.css" />
         <option value="$PROJECT_DIR$/styles/TheRules-style.css" />
-        <option value="$PROJECT_DIR$/TheRules.html" />
-        <option value="$PROJECT_DIR$/life-in-softuni.html" />
+        <option value="$PROJECT_DIR$/Cinema.html" />
         <option value="$PROJECT_DIR$/for-the-curious.html" />
+        <option value="$PROJECT_DIR$/header-template.html" />
+        <option value="$PROJECT_DIR$/styles/i-like-you-style.css" />
+        <option value="$PROJECT_DIR$/i-like-you.html" />
+        <option value="$PROJECT_DIR$/life-in-softuni.html" />
+        <option value="$PROJECT_DIR$/TheRules.html" />
       </list>
     </option>
   </component>
@@ -164,6 +134,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="TeamProject - Katla" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TeamPreject - Katla" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TeamProject - Katla" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -264,13 +248,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26488096" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26488096" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39967373" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -555,90 +539,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/for-the-curious-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3121" max-vertical-offset="3774">
-          <caret line="216" column="1" selection-start-line="180" selection-start-column="0" selection-end-line="216" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/i-like-you-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4068376" vertical-offset="306" max-vertical-offset="3604">
-          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/life-in-softuni-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7094017" vertical-offset="112" max-vertical-offset="3808">
-          <caret line="31" column="29" selection-start-line="24" selection-start-column="4" selection-end-line="31" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/header-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3145">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/home-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.4965036" vertical-offset="0" max-vertical-offset="3468">
-          <caret line="84" column="22" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/Cinema-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9008547" vertical-offset="0" max-vertical-offset="697">
-          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header-template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.846153" vertical-offset="0" max-vertical-offset="1394">
-          <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/i-like-you.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-46.423077" vertical-offset="0" max-vertical-offset="2125">
-          <caret line="71" column="46" selection-start-line="71" selection-start-column="46" selection-end-line="71" selection-end-column="46" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LoadHeaderExample.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="680">
           <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/TheRules-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6974359" vertical-offset="0" max-vertical-offset="782">
-          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.7307692" vertical-offset="1144" max-vertical-offset="1717">
-          <caret line="73" column="46" selection-start-line="73" selection-start-column="46" selection-end-line="73" selection-end-column="46" />
           <folding />
         </state>
       </provider>
@@ -651,34 +555,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/life-in-softuni.html">
+    <entry file="file://$PROJECT_DIR$/Cinema.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385" vertical-offset="238" max-vertical-offset="1530">
-          <caret line="31" column="88" selection-start-line="31" selection-start-column="88" selection-end-line="31" selection-end-column="88" />
+        <state vertical-scroll-proportion="-3.2692308" vertical-offset="255" max-vertical-offset="2465">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/for-the-curious.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.807693" vertical-offset="2701" max-vertical-offset="3264">
-          <caret line="180" column="27" selection-start-line="180" selection-start-column="27" selection-end-line="180" selection-end-column="27" />
+        <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="3264">
+          <caret line="16" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="186" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cinema.html">
+    <entry file="file://$PROJECT_DIR$/header-template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="2465">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        <state vertical-scroll-proportion="-17.076923" vertical-offset="831" max-vertical-offset="1394">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="1717">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-like-you.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.6776557" vertical-offset="1596" max-vertical-offset="2142">
+          <caret line="40" column="65" selection-start-line="0" selection-start-column="0" selection-end-line="120" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/life-in-softuni.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.3351648" vertical-offset="0" max-vertical-offset="1513">
+          <caret line="75" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="83" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TheRules.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8406593" vertical-offset="663" max-vertical-offset="2244">
-          <caret line="66" column="139" selection-start-line="66" selection-start-column="139" selection-end-line="66" selection-end-column="139" />
+        <state vertical-scroll-proportion="0.093406595" vertical-offset="0" max-vertical-offset="2244">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/Cinema-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9008547" vertical-offset="0" max-vertical-offset="697">
+          <caret line="31" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/for-the-curious-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.94188035" vertical-offset="3121" max-vertical-offset="3774">
+          <caret line="216" column="1" selection-start-line="180" selection-start-column="0" selection-end-line="216" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/header-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="3145">
+          <caret line="4" column="15" selection-start-line="0" selection-start-column="0" selection-end-line="179" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/home-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1428" max-vertical-offset="3468">
+          <caret line="84" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="198" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/i-like-you-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="3621">
+          <caret line="33" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="207" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/life-in-softuni-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="3808">
+          <caret line="31" column="29" selection-start-line="0" selection-start-column="0" selection-end-line="218" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/TheRules-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.52307695" vertical-offset="0" max-vertical-offset="782">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>

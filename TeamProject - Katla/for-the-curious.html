@@ -161,26 +161,26 @@
 </script>
 <script>
     $( "#accordion" ).accordion(
-            {collapsible: true}
+        {collapsible: true}
     );
 </script>
 <script>
-      function playSound(heading, video){
-          heading.addEventListener('click', function() {
-              video.load();
-              video.play();}, false);
-      };
-      window.onload = function() {
-          var headings = document.getElementsByTagName("h3");
-          var videos = document.getElementsByTagName("video");
-          var sound = document.getElementById('sound');
-          for (var element = 0; element < headings.length - 1; element++) {
-              playSound(headings[element], videos[element]);
-          }
-          headings[headings.length - 1].addEventListener('click', function() {
-              sound.load();
-              sound.play();}, false);
-      };
+    function playSound(heading, video){
+        heading.addEventListener('click', function() {
+            video.load();
+            video.play();}, false);
+    };
+    window.onload = function() {
+        var headings = document.getElementsByTagName("h3");
+        var videos = document.getElementsByTagName("video");
+        var sound = document.getElementById('sound');
+        for (var element = 0; element < headings.length - 1; element++) {
+            playSound(headings[element], videos[element]);
+        }
+        headings[headings.length - 1].addEventListener('click', function() {
+            sound.load();
+            sound.play();}, false);
+    };
 </script>
 </body>
 
