@@ -29,6 +29,18 @@ main{
     width: 140px;
 }
 
+/*Footer*/
+
+footer.site-footer{
+    height: 350px;
+    width: 100%;
+    position: absolute;
+    background-image: url("../images/SoftUniRightMan.png"), url("images/blue-footer.png");
+    background-position: 90% bottom, bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, cover;
+}
+
 .footer-menu{
     margin-top: 70px;
     margin-left: 30px;

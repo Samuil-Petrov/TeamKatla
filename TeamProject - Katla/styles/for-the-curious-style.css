@@ -54,6 +54,7 @@ h1, h2, h3, h4, h5, h6{
     font-style: italic;
 }
 
+
 video{
     max-height: 318px;
     vertical-align: middle;
@@ -74,9 +75,26 @@ video{
 }
 
 /*Footer*/
+footer.site-footer{
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    background-image: url("../images/minion.png"), url("images/blue-footer.png");
+    background-position: 90% bottom, bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, cover;
+}
+
 .push-footer{
     width: 100%;
     min-height: 910px;
+}
+
+@media (max-width: 768px) {
+    .push-footer{
+        min-height: 1030px;
+    }
+
 }
 
 .footer-menu{
@@ -138,20 +156,6 @@ video{
 
 .footer-menu > div:nth-child(5){
     margin-left: 80px;
-}
-
-@media (max-width: 768px) {
-    .push-content{
-        min-height: 550px;
-    }
-
-    .site-footer{
-        height: 800px;
-    }
-
-    .push-footer{
-        min-height: 810px;
-    }
 }
 
 .footer-menu > div > span{
