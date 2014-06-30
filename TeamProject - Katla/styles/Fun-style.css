@@ -55,24 +55,11 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
-video{
+video, img{
     max-height: 318px;
     vertical-align: middle;
 }
 
-.sources h4{
-    font-size: 2rem;
-    font-style: italic;
-}
-
-.sources ul li{
-    margin-bottom: 5px;
-    list-style-type: none;
-}
-
-.sources ul li a{
-    font-size: 1.8rem;
-}
 
 /*Footer*/
 footer.site-footer{
@@ -87,26 +74,33 @@ footer.site-footer{
 
 .push-footer{
     width: 100%;
-    min-height: 910px;
+    min-height: 1100px;
 }
 
-@media (max-width: 867px) {
+@media (max-width: 1245px) {
     .push-footer{
-        min-height: 950px;
+        min-height: 1200px;
     }
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 885px) {
     .push-footer{
-        min-height: 1030px;
+        min-height: 1250px;
     }
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 745px) {
     .push-footer{
-        min-height: 1050px;
+        min-height: 1400px;
+    }
+
+}
+
+@media (max-width: 395px) {
+    .push-footer{
+        min-height: 1500px;
     }
 
 }
