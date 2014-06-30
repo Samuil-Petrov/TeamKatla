@@ -8,6 +8,7 @@ div.well {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 div.shadow{
     box-shadow:
     0 0 0 10px rgba(100, 100, 100, 0.6);
