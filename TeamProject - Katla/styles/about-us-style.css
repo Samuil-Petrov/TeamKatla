@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    word-wrap:break-word;
 }
 
 html{
@@ -9,7 +10,6 @@ html{
 }
 
 .push-content{
-    width: 100%;
     min-height: 400px;
 }
 
@@ -17,97 +17,67 @@ html{
     .push-content{
         min-height: 550px;
     }
-
 }
 
-div.well{
-    padding: 0;
+main{
+    position: relative;
+}
+
+.row header .well{
+    height: auto;
+}
+
+div.well {
+    text-align: center;
+    color: rgb(80, 80, 80);
+    height: 180px;
     background-image: url("../images/orange-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow:
-    0 0 0 10px rgba(100, 100, 100, 0.6);
-    -moz-box-shadow:
-    0 0 0 10px rgba(210, 210, 210, 0.6);
-    -webkit-shadow:
-    0 0 0 10px rgba(150, 150, 150, 0.6);
-    margin-bottom: 25px;
-    overflow: hidden;
-    height: 130px;
 }
 
-div.well h2{
+div.well p {
+    color: rgb(50, 50, 50);
     font-size: 2rem;
 }
 
-div.well img{
-    height: 60px;
+h2, #wrapper {
+    float:left;
+}
+
+.well h2{
+    margin-top:50px;
+}
+
+.circle-size{
+    height: 140px;
+    width: 140px;
+    margin-right:40px;
+    margin-left:240px;
 }
 
 
-div.well.pull-left, div.well.pull-right{
-    margin-left: 0;
+div.shadow {
+    box-shadow: 0 0 0 10px rgba(100, 100, 100, 0.6);
+    -moz-box-shadow: 0 0 0 10px rgba(210, 210, 210, 0.6);
+    -webkit-shadow: 0 0 0 10px rgba(150, 150, 150, 0.6);
 }
 
-@media (max-width: 768px) {
-    div.pull-left, div.pull-right{
-        float: none !important;
-    }
+/*Footer*/
 
-    div.well{
-        margin-right: auto;
-        margin-left: auto;
-    }
+footer.site-footer{
+    height: 350px;
+    width: 100%;
+    position: absolute;
+    background-image: url("../images/SoftUniRightMan.png"), url("../images/blue-footer.png");
+    background-position: 90% bottom, bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, cover;
 }
-.video-wrapper{
-    text-align: center;
-    box-shadow:
-    0 0 0 10px rgba(100, 100, 100, 0.6);
-    -moz-box-shadow:
-    0 0 0 10px rgba(210, 210, 210, 0.6);
-    -webkit-shadow:
-    0 0 0 10px rgba(150, 150, 150, 0.6);
-    text-align: center;
-    margin: 0 auto 20px auto;
-    border-radius: 1px;
-    min-height: 600px;
-    background: url("../images/orange-background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 20px;
-}
-
 
 .footer-menu{
     margin-top: 70px;
     margin-left: 30px;
-}
-
-/*Footer*/
-.push-footer{
-    width: 100%;
-    min-height: 600px;
-}
-
-@media (max-width: 600px) {
-    .push-footer{
-        min-height: 500px;
-    }
-}
-
-@media (max-width: 400px) {
-    .push-footer{
-        min-height: 400px;
-    }
-}
-footer.site-footer{
-    height: 400px;
-    width: 100%;
-    position: absolute;
-    background-image: url("../images/minion.png"), url("../images/blue-footer.png");
-    background-position: 90% bottom, bottom;
-    background-repeat: no-repeat, no-repeat;
-    background-size: auto, cover;
 }
 
 @media (max-width: 992px) {
@@ -116,7 +86,13 @@ footer.site-footer{
     }
 }
 
-@media (max-width: 770px) {
+@media (max-width: 768px) {
+    .footer-menu{
+        margin-top: 35;
+    }
+}
+
+@media (max-width: 767px) {
     .footer-menu{
         display: none;
     }
@@ -157,7 +133,17 @@ footer.site-footer{
 }
 
 .footer-menu > div:nth-child(5){
-     margin-left: 80px;
+    margin-left: 80px;
+}
+
+@media (max-width: 768px) {
+    .site-footer{
+        height: 800px;
+    }
+
+    .push-footer{
+        min-height: 810px;
+    }
 }
 
 .footer-menu > div > span{
@@ -217,3 +203,4 @@ footer.site-footer{
 .xs-menu > span:hover{
     height: 33px;
 }
+

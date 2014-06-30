@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
 <head lang="en">
@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>About Us</title>
     <!--Custom CSS-->
-    <link href="about-us-style.css" rel="stylesheet" type="text/css">
+    <link href="styles/about-us-style.css" rel="stylesheet" type="text/css">
     <!-- Bootstrap -->
     <script src="js/bootstrap.min.js"></script>
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -18,44 +18,48 @@
 </head>
 
 <body>
+    <audio autoplay="autoplay" loop="loop">
+        <source src="sounds/MissionImpossibleTheme.mp3" type="audio/mp3">
+    </audio>
     <div id="header-wrapper"></div><!---Header Wrapper-->
     <div class="push-content"></div>
-    <div class="contaier">
-        <main>
-            <div class="container text-center">
-                <div class="col-lg-4">
-                    <div class="well text-center
-                                col-lg-10 col-lg-offset-1 col-md-3 col-sm-3 col-xs-12">
-                        <h2>Home</h2>
-                            <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fkatla.softuni-friends.org%2F&charset=%28detect+automatically%29&doctype=Inline&group=0" class="badge-link html-badge" title="W3C HTML Validation">
-                            <img src="images/W3C_HTML5_certified.png" alt="" class="col-lg-12"/>
-                        </a>
+    <main>
+        <div class="container">
+            <div class="row">
+                <header class="col-lg-12 col-md-12">
+                    <div class="well shadow">
+                        <h1>За нас</h1>
+                    </div>
+                </header>
+                <div class="col-lg-12 col-md-12">
+                    <div class="well">
+                        <div id="wrapper">
+                            <img class="img-circle circle-size image-border" data-src="holder.js/140x140" alt="140x140" src="images/cinema/CheaperByTheDozen.jpg">
+                        </div>
+                        <h2>Габриела Бурлакова - студент</h2>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="well text-center
-                                col-lg-10 col-lg-offset-1 col-md-3 col-sm-3 col-xs-12">
-                        <h2>Минутки за реклама</h2>
-                        <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fkatla.softuni-friends.org%2F&charset=%28detect+automatically%29&doctype=Inline&group=0" class="badge-link html-badge" title="W3C HTML Validation">
-                            <img src="images/W3C_HTML5_certified.png" alt="" class="col-lg-12"/>
-                        </a>
-                    </div>
+                <div class="col-lg-12 col-md-12">
+                    <div class="well">
+                        <div id="wrapper">
+                            <img class="img-circle circle-size" data-src="holder.js/140x140" alt="140x140" src="images/cinema/DieHard.jpg">
+                        </div>
+                            <h2>Надежда Васова - студент</h2>
+                        </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="well text-center
-                                col-lg-10 col-lg-offset-1 col-md-3 col-sm-3 col-xs-12">
-                        <h2>I лайк you</h2>
-                        <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fkatla.softuni-friends.org%2Fi-like-you.html&charset=%28detect+automatically%29&doctype=Inline&group=0" class="badge-link html-badge" title="W3C HTML Validation">
-                            <img src="images/W3C_HTML5_certified.png" alt="" class="col-lg-12"/>
-                        </a>
-                    </div>
+                <div class="col-lg-12 col-md-12">
+                    <div class="well">
+                        <div id="wrapper">
+                            <img class="img-circle circle-size" data-src="holder.js/140x140" alt="140x140" src="images/gm.png">
+                        </div>
+                            <h2>Георги Мачканов - студент</h2>
+                        </div>
                 </div>
-            </div>
+               
 
-        </main>
-
-    </div>
-    <div class="push-footer"></div>
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </main>
     <footer class="site-footer">
         <div class="col-xs-12 visible-xs xs-menu">
             <span><a href="#header-wrapper">Към началото</a></span>
@@ -80,45 +84,19 @@
             </div>
             <div class="col-lg-8 col-lg-offset-1
                         col-md-7 col-sm-6 col-xs-7">
-                <span><a href="Cinema.html">За всеки по нещо</a></span>
+                <span><a href="#">За всеки по нещо</a></span>
             </div>
         </div>
     </footer>
 
-<!--Scripts-->
-<script src="scripts/jquery-1.11.1.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script type="text/javascript">
-    $(document).ready(function() {
-        $('#header-wrapper').load('header-template.html');
-    } );
-</script>
-<script type="text/javascript">
-    (function() {
-        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-        po.src = 'https://apis.google.com/js/platform.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-    })();
-</script>
-
-<!--Share buttons - scripts-->
-<script type="text/javascript">
-    (function() {
-        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-        po.src = 'https://apis.google.com/js/platform.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-    })();
-</script>
-<script>
-   (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/bg_BG/sdk.js#xfbml=1&version=v2.0";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-</script>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    <!--Scripts-->
+    <script src="scripts/jquery-1.11.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#header-wrapper').load('header-template.html');
+        });
+    </script>
 </body>
 
 </html>
