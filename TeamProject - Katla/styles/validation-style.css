@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.push-content{
+    width: 100%;
+    min-height: 400px;
+}
+
+@media (max-width: 768px) {
+    .push-content{
+        min-height: 550px;
+    }
+
+}
+
+div.well{
+    padding: 0;
+    background-image: url("../images/orange-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow:
+    0 0 0 10px rgba(100, 100, 100, 0.6);
+    -moz-box-shadow:
+    0 0 0 10px rgba(210, 210, 210, 0.6);
+    -webkit-shadow:
+    0 0 0 10px rgba(150, 150, 150, 0.6);
+    margin-bottom: 25px;
+    overflow: hidden;
+    height: 130px;
+}
+
+div.well h2{
+    font-size: 2rem;
+}
+
+div.well img{
+    height: 60px;
+}
+
+
+div.well.pull-left, div.well.pull-right{
+    margin-left: 0;
+}
+
+@media (max-width: 768px) {
+    div.pull-left, div.pull-right{
+        float: none !important;
+    }
+
+    div.well{
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+.video-wrapper{
+    text-align: center;
+    box-shadow:
+    0 0 0 10px rgba(100, 100, 100, 0.6);
+    -moz-box-shadow:
+    0 0 0 10px rgba(210, 210, 210, 0.6);
+    -webkit-shadow:
+    0 0 0 10px rgba(150, 150, 150, 0.6);
+    text-align: center;
+    margin: 0 auto 20px auto;
+    border-radius: 1px;
+    min-height: 600px;
+    background: url("../images/orange-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+
+.footer-menu{
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+/*Footer*/
+.push-footer{
+    width: 100%;
+    min-height: 600px;
+}
+
+@media (max-width: 600px) {
+    .push-footer{
+        min-height: 500px;
+    }
+}
+
+@media (max-width: 400px) {
+    .push-footer{
+        min-height: 400px;
+    }
+}
+footer.site-footer{
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    background-image: url("../images/minion.png"), url("../images/blue-footer.png");
+    background-position: 90% bottom, bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, cover;
+}
+
+@media (max-width: 992px) {
+    .footer-menu{
+        margin-top: 35px;
+    }
+}
+
+@media (max-width: 770px) {
+    .footer-menu{
+        display: none;
+    }
+}
+
+.footer-menu > div{
+    background: rgba(233, 206, 178, 0.8);
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 2px solid rgba(78, 50, 27, 0.7);
+    border-bottom: none;
+    height: 35px;
+    margin-bottom: 10px;
+    text-align: center;
+    overflow: hidden;
+    box-shadow:
+    0 0 3px 3px rgba(100, 100, 100, 0.6);
+    -moz-box-shadow:
+    0 0 3px 3px rgba(210, 210, 210, 0.6);
+    -webkit-shadow:
+    0 0 3px 3px rgba(150, 150, 150, 0.6);
+}
+
+.footer-menu > div:nth-child(1){
+    margin-left: 0;
+}
+
+.footer-menu > div:nth-child(2){
+    margin-left: 20px;
+}
+
+.footer-menu > div:nth-child(3){
+    margin-left: 40px;
+}
+
+.footer-menu > div:nth-child(4){
+    margin-left: 60px;
+}
+
+.footer-menu > div:nth-child(5){
+     margin-left: 80px;
+}
+
+.footer-menu > div > span{
+    width: 100%;
+    display: block;
+    height: 37px;
+    border-bottom: 3px solid rgba(78, 50, 27, 0.7);
+    -webkit-transition: all .15s ease-in;
+    -moz-transition: all .15s ease-in-out;
+    transition: all .15s linear;
+}
+
+.footer-menu > div > span > a{
+    color: rgb(123, 98, 74);
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+.footer-menu > div > span:hover{
+    height: 33px;
+}
+
+.xs-menu{
+    background: rgba(233, 206, 178, 0.8);
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 2px solid rgba(78, 50, 27, 0.7);
+    border-bottom: none;
+    height: 35px;
+    margin-bottom: 10px;
+    text-align: center;
+    overflow: hidden;
+    box-shadow:
+    0 0 3px 3px rgba(100, 100, 100, 0.6);
+    -moz-box-shadow:
+    0 0 3px 3px rgba(210, 210, 210, 0.6);
+    -webkit-shadow:
+    0 0 3px 3px rgba(150, 150, 150, 0.6);
+}
+
+.xs-menu > span{
+    width: 100%;
+    display: block;
+    height: 37px;
+    border-bottom: 3px solid rgba(78, 50, 27, 0.7);
+    -webkit-transition: all .15s ease-in;
+    -moz-transition: all .15s ease-in-out;
+    transition: all .15s linear;
+}
+
+.xs-menu > span > a{
+    color: rgb(123, 98, 74);
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+.xs-menu > span:hover{
+    height: 33px;
+}
