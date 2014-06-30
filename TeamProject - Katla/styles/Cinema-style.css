@@ -10,12 +10,12 @@ html{
 }
 
 .push-content{
-    min-height: 400px;
+    min-height: 420px;
 }
 
 @media (max-width: 768px) {
     .push-content{
-        min-height: 550px;
+        min-height: 570px;
     }
 }
 

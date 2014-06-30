@@ -17,12 +17,12 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .push-content{
-    min-height: 400px;
+    min-height: 420px;
 }
 
 @media (max-width: 768px) {
     .push-content{
-        min-height: 550px;
+        min-height: 570px;
     }
 }
 
@@ -87,6 +87,13 @@ footer.site-footer{
 .push-footer{
     width: 100%;
     min-height: 910px;
+}
+
+@media (max-width: 940px) {
+    .push-footer{
+        min-height: 980px;
+    }
+
 }
 
 @media (max-width: 867px) {
