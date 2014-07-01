@@ -15,6 +15,7 @@ p{
 
 h1, h2, h3, h4, h5, h6{
     text-overflow: ellipsis;
+    overflow:hidden;
 }
 
 .push-content{
@@ -43,10 +44,12 @@ h1, h2, h3, h4, h5, h6{
     padding: 20px;
     border-radius: 5px;
     color: rgb(56, 31, 0);
+    overflow:hidden;
 }
 
 .accordion-wrapper h1{
     font-size: 3.5rem;
+    overflow:hidden;
 }
 
 .accordion-wrapper h1 + p{
@@ -58,6 +61,7 @@ h1, h2, h3, h4, h5, h6{
 video, img{
     max-height: 318px;
     vertical-align: middle;
+    overflow:hidden;
 }
 
 
