@@ -2,20 +2,49 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    word-wrap:break-word;
 }
 
 html{
     font-size: 62.5%;
 }
 
-.push-content{
-    min-height: 400px;
+p{
+    word-wrap:break-word;
+}
+
+h1, h2, h3, h4, h5, h6{
+    text-overflow: ellipsis;
+}
+
+div.push-main{
+    min-height: 460px;
 }
 
 @media (max-width: 768px) {
-    .push-content{
-        min-height: 550px;
+    div.push-main{
+        min-height: 600px;
+    }
+}
+
+div.push-content{
+    min-height: 460px;
+}
+
+@media (max-width: 768px) {
+    div.push-content{
+        min-height: 600px;
+    }
+}
+
+@media (max-width: 640px) {
+    div.push-content{
+        min-height: 500px;
+    }
+}
+
+@media (max-width: 540px) {
+    div.push-content{
+        min-height: 400px;
     }
 }
 
@@ -23,43 +52,56 @@ main{
     position: relative;
 }
 
-.row header .well{
-    height: auto;
+.video-wrapper{
+    text-align: center;
+    box-shadow:
+    0 0 0 10px rgba(100, 100, 100, 0.6);
+    -moz-box-shadow:
+    0 0 0 10px rgba(210, 210, 210, 0.6);
+    -webkit-shadow:
+    0 0 0 10px rgba(150, 150, 150, 0.6);
+    text-align: center;
+    margin: 0 auto 20px auto;
+    border-radius: 1px;
+    min-height: 600px;
+    background: url("../images/orange-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
 }
 
-div.well {
+div.well{
+    height: 500px;
     text-align: center;
     color: rgb(80, 80, 80);
-    height: 180px;
     background-image: url("../images/orange-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-div.well p {
+@media (max-width: 992px) {
+    div.well{
+        height: auto;
+    }
+}
+
+div.well p{
     color: rgb(50, 50, 50);
     font-size: 2rem;
-}
-
-h2, #wrapper {
-    float:left;
-}
-
-.well h2{
-    margin-top:50px;
 }
 
 .circle-size{
     height: 140px;
     width: 140px;
-    margin-right:40px;
 }
 
+.small-size{
+    height: 140px;
+    width: 140px;
+}
 
-div.shadow {
-    box-shadow: 0 0 0 10px rgba(100, 100, 100, 0.6);
-    -moz-box-shadow: 0 0 0 10px rgba(210, 210, 210, 0.6);
-    -webkit-shadow: 0 0 0 10px rgba(150, 150, 150, 0.6);
+.italic{
+    font-style: italic;
 }
 
 /*Footer*/
@@ -68,7 +110,7 @@ footer.site-footer{
     height: 350px;
     width: 100%;
     position: absolute;
-    background-image: url("../images/SoftUniRightMan.png"), url("../images/blue-footer.png");
+    background-image: url("../images/minion.png"), url("../images/blue-footer.png");
     background-position: 90% bottom, bottom;
     background-repeat: no-repeat, no-repeat;
     background-size: auto, cover;
@@ -202,4 +244,3 @@ footer.site-footer{
 .xs-menu > span:hover{
     height: 33px;
 }
-

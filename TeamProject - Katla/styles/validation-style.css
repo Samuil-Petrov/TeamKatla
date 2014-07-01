@@ -8,14 +8,22 @@ html{
     font-size: 62.5%;
 }
 
+p{
+    word-wrap:break-word;
+}
+
+h1, h2, h3, h4, h5, h6{
+    text-overflow: ellipsis;
+}
+
 .push-content{
     width: 100%;
-    min-height: 400px;
+    min-height: 420px;
 }
 
 @media (max-width: 768px) {
     .push-content{
-        min-height: 550px;
+        min-height: 570px;
     }
 
 }
@@ -31,7 +39,7 @@ div.well{
     0 0 0 10px rgba(210, 210, 210, 0.6);
     -webkit-shadow:
     0 0 0 10px rgba(150, 150, 150, 0.6);
-    margin-bottom: 25px;
+    margin-bottom: 35px;
     overflow: hidden;
     height: 130px;
 }
@@ -59,6 +67,7 @@ div.well.pull-left, div.well.pull-right{
         margin-left: auto;
     }
 }
+
 .video-wrapper{
     text-align: center;
     box-shadow:
@@ -77,29 +86,8 @@ div.well.pull-left, div.well.pull-right{
     padding: 20px;
 }
 
-
-.footer-menu{
-    margin-top: 70px;
-    margin-left: 30px;
-}
-
 /*Footer*/
-.push-footer{
-    width: 100%;
-    min-height: 600px;
-}
 
-@media (max-width: 600px) {
-    .push-footer{
-        min-height: 500px;
-    }
-}
-
-@media (max-width: 400px) {
-    .push-footer{
-        min-height: 400px;
-    }
-}
 footer.site-footer{
     height: 400px;
     width: 100%;
@@ -110,10 +98,9 @@ footer.site-footer{
     background-size: auto, cover;
 }
 
-@media (max-width: 992px) {
-    .footer-menu{
-        margin-top: 35px;
-    }
+.footer-menu{
+    margin-top: 70px;
+    margin-left: 30px;
 }
 
 @media (max-width: 770px) {

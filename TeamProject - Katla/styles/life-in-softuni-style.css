@@ -8,6 +8,14 @@ html{
     font-size: 62.5%;
 }
 
+p{
+    word-wrap:break-word;
+}
+
+h1, h2, h3, h4, h5, h6{
+    text-overflow: ellipsis;
+}
+
 .push-content{
     width: 100%;
     min-height: 400px;
