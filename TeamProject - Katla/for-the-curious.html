@@ -62,7 +62,7 @@
                     <div>
                         <iframe src="//player.vimeo.com/video/99615730" width="60%" height="95%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                     </div>
-                    <h3>Източници</h3>
+                    <h3 id="playSound">Източници</h3>
                     <div class="sources">
                         <audio id="sound">
                             <source src="sounds/снех-те.mp3" type="audio/mp3">
@@ -132,18 +132,10 @@
     );
 </script>
 <script>
-    function playSound(heading, video){
-        heading.addEventListener('click', function() {
-            video.play();}, false);
-    };
     window.onload = function() {
-        var headings = document.getElementsByTagName("h3");
-        var videos = document.getElementsByTagName("iframe");
+        var playSound = document.getElementById('playSound');
         var sound = document.getElementById('sound');
-        for (var element = 0; element < headings.length - 1; element++) {
-            playSound(headings[element], videos[element]);
-        }
-        headings[headings.length - 1].addEventListener('click', function() {
+        playSound.addEventListener('click', function() {
             sound.load();
             sound.play();}, false);
     };

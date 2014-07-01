@@ -151,21 +151,6 @@
                 { collapsible: true }
         );
     </script>
-    <script>
-        function playSound(heading, video) {
-            heading.addEventListener('click', function () {
-                video.load();
-                video.play();
-            }, false);
-        };
-        window.onload = function () {
-            var headings = document.getElementsByTagName("h2");
-            var videos = document.getElementsByTagName("video");
-            for (var element = 0; element < headings.length; element++) {
-                playSound(headings[element], videos[element]);
-            }
-        };
-    </script>
 </body>
 
 </html>
