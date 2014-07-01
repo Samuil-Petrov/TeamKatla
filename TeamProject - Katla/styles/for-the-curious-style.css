@@ -54,9 +54,10 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
-video{
-    max-height: 318px;
-    vertical-align: middle;
+@media (max-width: 768px) {
+    iframe{
+        width: 100%;
+    }
 }
 
 .sources h4{

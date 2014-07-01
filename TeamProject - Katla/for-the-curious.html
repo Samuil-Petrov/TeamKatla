@@ -40,59 +40,27 @@
                 <div id="accordion" class="col-lg-12 col-md-12 col-xs-12">
                     <h3>Бъди наясно с терминологията</h3>
                     <div>
-                        <video controls class="col-lg-10 col-md-10 col-sm-10 col-xs-12
-                                               col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
-                            <source src="video/Debugger.mp4" type="video/mp4">
-                            <source src="video/Debugger.webm" type="video/webm">
-                            <p>Your browser does not support the video tag.</p>
-                        </video>
+                        <iframe src="//player.vimeo.com/video/99614581" width="60%" height="95%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                     </div>
                     <h3>Научи откъде идва Интернетът</h3>
                     <div>
-                        <div>
-                            <video controls class="col-lg-10 col-md-10 col-sm-10 col-xs-12
-                                               col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
-                                <source src="video/Internet.mp4" type="video/mp4">
-                                <source src="video/Internet.webm" type="video/webm">
-                                <p>Your browser does not support the video tag.</p>
-                            </video>
-                        </div>
+                        <iframe src="//player.vimeo.com/video/99615547" width="60%" height="95%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                     </div>
                     <h3>Учи български</h3>
                     <div>
-                        <video controls class="col-lg-10 col-md-10 col-sm-10 col-xs-12
-                                               col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
-                            <source src="video/сричкопренасяне.mp4" type="video/mp4">
-                            <source src="video/сричкопренасяне.webm" type="video/webm">
-                            <p>Your browser does not support the video tag.</p>
-                        </video>
+                        <iframe src="//player.vimeo.com/video/99615731" width="60%" height="95%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                     </div>
                     <h3>Ползвай електричеството по предназначение</h3>
                     <div>
-                        <video controls class="col-lg-10 col-md-10 col-sm-10 col-xs-12
-                                               col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
-                            <source src="video/електричество.mp4" type="video/mp4">
-                            <source src="video/електричество.webm" type="video/webm">
-                            <p>Your browser does not support the video tag.</p>
-                        </video>
+                        <iframe src="//player.vimeo.com/video/99615729" width="60%" height="95%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                     </div>
                     <h3>Използвай браузъра си по предназначение</h3>
                     <div>
-                        <video controls class="col-lg-10 col-md-10 col-sm-10 col-xs-12
-                                               col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
-                            <source src="video/use-opera.mp4" type="video/mp4">
-                            <source src="video/use-opera.webm" type="video/webm">
-                            <p>Your browser does not support the video tag.</p>
-                        </video>
+                        <iframe src="//player.vimeo.com/video/99615552" width="60%" height="95%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                     </div>
                     <h3>Уважавай геометрията</h3>
                     <div>
-                        <video controls class="col-lg-10 col-md-10 col-sm-10 col-xs-12
-                                               col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
-                            <source src="video/заоблени-кривоъгълници.mp4" type="video/mp4">
-                            <source src="video/заоблени-кривоъгълници.webm" type="video/webm">
-                            <p>Your browser does not support the video tag.</p>
-                        </video>
+                        <iframe src="//player.vimeo.com/video/99615730" width="60%" height="95%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                     </div>
                     <h3>Източници</h3>
                     <div class="sources">
@@ -166,12 +134,11 @@
 <script>
     function playSound(heading, video){
         heading.addEventListener('click', function() {
-            video.load();
             video.play();}, false);
     };
     window.onload = function() {
         var headings = document.getElementsByTagName("h3");
-        var videos = document.getElementsByTagName("video");
+        var videos = document.getElementsByTagName("iframe");
         var sound = document.getElementById('sound');
         for (var element = 0; element < headings.length - 1; element++) {
             playSound(headings[element], videos[element]);

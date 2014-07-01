@@ -29,6 +29,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .video-wrapper{
+    height: 480px;
     text-align: center;
     box-shadow:
     0 0 0 10px rgba(100, 100, 100, 0.6);
@@ -43,6 +44,19 @@ h1, h2, h3, h4, h5, h6{
     background-repeat: no-repeat;
     background-size: cover;
     padding: 20px;
+}
+
+
+@media (max-width: 980px) {
+    .video-wrapper{
+        height: 350px;
+    }
+}
+
+@media (max-width: 380px) {
+    .video-wrapper{
+        height: auto;
+    }
 }
 
 .logo-in-frame{
@@ -74,31 +88,31 @@ h1, h2, h3, h4, h5, h6{
 
 @media (max-width: 768px) {
     .push-footer{
-        min-height: 840px;
+        min-height: 900px;
     }
 }
 
 @media (max-width: 550px) {
     .push-footer{
-        min-height: 690px;
+        min-height: 750px;
     }
 }
 
 @media (max-width: 540px) {
     .push-footer{
-        min-height: 670px;
+        min-height: 900px;
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 530px) {
     .push-footer{
-        min-height: 650px;
+        min-height: 750px;
     }
 }
 
 @media (max-width: 450px) {
     .push-footer{
-        min-height: 550px;
+        min-height: 670px;
     }
 }
 

@@ -68,8 +68,13 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     padding: 20px;
+    height: 380px;
 }
-
+@media (max-width: 768px) {
+    iframe{
+        width: 100%;
+    }
+}
 div.well{
     height: 500px;
     text-align: center;

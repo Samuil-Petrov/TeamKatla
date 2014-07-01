@@ -57,6 +57,7 @@ div.well.pull-left, div.well.pull-right{
     }
 }
 .video-wrapper{
+    height: 400px;
     text-align: center;
     box-shadow:
     0 0 0 10px rgba(100, 100, 100, 0.6);
@@ -65,7 +66,7 @@ div.well.pull-left, div.well.pull-right{
     -webkit-shadow:
     0 0 0 10px rgba(150, 150, 150, 0.6);
     text-align: center;
-    margin: 0 auto 20px auto;
+    margin: 25px auto 20px auto;
     border-radius: 1px;
     min-height: 600px;
     background: url("../images/orange-background.jpg");
@@ -74,6 +75,24 @@ div.well.pull-left, div.well.pull-right{
     padding: 20px;
 }
 
+
+@media (max-width: 980px) {
+    .video-wrapper{
+        height: 350px;
+    }
+}
+
+@media (max-width: 380px) {
+    .video-wrapper{
+        height: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    iframe{
+        width: 100%;
+    }
+}
 
 .footer-menu{
     margin-top: 70px;
