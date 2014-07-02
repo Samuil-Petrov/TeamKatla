@@ -21,23 +21,6 @@
 
     <!--Icon-->
     <link rel="shortcut icon" href="images/KatlaTeamIcon.ico">
-
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('#header-wrapper').load('header-template.html');
-        } );
-    </script>
-    <script type="text/javascript">
-        window.onload = function(){
-            var stop = document.getElementById('stop');
-            var play = document.getElementById('play');
-            var sound = document.getElementById('sound');
-            stop.addEventListener('click', function() {
-                sound.pause();}, false);
-            play.addEventListener('click', function(){
-                sound.play();}, false)
-        };
-    </script>
 </head>
 
 <body>
@@ -110,6 +93,24 @@
             </div>
         </div>
     </footer>
+
+    <!--Scripts-->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#header-wrapper').load('header-template.html');
+        } );
+    </script>
+    <script type="text/javascript">
+        window.onload = function(){
+            var stop = document.getElementById('stop');
+            var play = document.getElementById('play');
+            var sound = document.getElementById('sound');
+            stop.addEventListener('click', function() {
+                sound.pause();}, false);
+            play.addEventListener('click', function(){
+                sound.play();}, false)
+        };
+    </script>
 </body>
 
 </html>

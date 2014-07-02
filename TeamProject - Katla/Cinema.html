@@ -23,9 +23,13 @@
 </head>
 
 <body>
-    <audio autoplay="autoplay" loop="loop">
+    <audio autoplay="autoplay" id="sound">
         <source src="sounds/MissionImpossibleTheme.mp3" type="audio/mp3">
     </audio>
+    <div class="buttons">
+        <img src="images/Play.png" alt="play" id="play"/>
+        <img src="images/Stop.png" alt="stop" id="stop"/>
+    </div>
     <div id="header-wrapper"></div><!---Header Wrapper-->
     <div class="push-content"></div>
     <main>
@@ -77,7 +81,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="well">
                         <img class="img-circle circle-size" data-src="holder.js/140x140" alt="140x140" src="images/cinema/titanic.jpg">
-                        <h2>Pragrammic</h2>
+                        <h2>Programmic</h2>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
@@ -98,8 +102,7 @@
                         <h2>The programmer uses Apple</h2>
                     </div>
                 </div>
-
-                    </div><!-- /.row -->
+            </div><!-- /.row -->
         </div><!-- /.container -->
     </main>
     <footer class="site-footer">
@@ -107,8 +110,7 @@
             <span><a href="#header-wrapper">Към началото</a></span>
         </div>
         <div class="col-lg-5 footer-menu">
-            <div class="
-                        col-lg-8 col-lg-offset-1
+            <div class="col-lg-8 col-lg-offset-1
                         col-md-7 col-sm-6 col-xs-7">
                 <span><a href="index.html">Начало</a></span>
             </div>
@@ -137,6 +139,17 @@
         $(document).ready(function () {
             $('#header-wrapper').load('header-template.html');
         });
+    </script>
+    <script type="text/javascript">
+        window.onload = function(){
+            var stop = document.getElementById('stop');
+            var play = document.getElementById('play');
+            var sound = document.getElementById('sound');
+            stop.addEventListener('click', function() {
+                sound.pause();}, false);
+            play.addEventListener('click', function(){
+                sound.play();}, false)
+        };
     </script>
 </body>
 

@@ -82,6 +82,25 @@ div.well{
     background-image: url("../images/orange-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+
+    -moz-transition-property:  -moz-box-shadow;
+    -webkit-transition-property: -webkit-shadow;
+    -o-transition-property: box-shadow
+    transition-property: box-shadow;
+    transition-duration: 2s;
+
+}
+
+div.well:hover{
+    /*-webkit-transition: all 10s ease;*/
+    /*-moz-transition: all 10s ease;*/
+    /*transition: all 10s ease;*/
+    box-shadow:
+    0 0 3px 3px rgba(150, 150, 150, 0.6);
+    -moz-box-shadow:
+    0 0 3px 3px rgba(150, 150, 150, 0.6);
+    -webkit-shadow:
+    0 0 3px 3px rgba(150, 150, 150, 0.6);
 }
 
 @media (max-width: 992px) {

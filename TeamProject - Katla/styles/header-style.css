@@ -81,8 +81,8 @@ html{
                     list-style: none;
                 }
 
-                div.navbar-collapse.in{
-                    overflow-y: visible;
+                .menu-items{
+                    margin-top: 60px;
                 }
 
                 .menu-items li{
