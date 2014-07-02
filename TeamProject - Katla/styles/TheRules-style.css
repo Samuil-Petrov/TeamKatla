@@ -16,6 +16,34 @@ h1, h2, h3, h4, h5, h6{
     text-overflow: ellipsis;
 }
 
+.buttons{
+    position: absolute;
+    margin-top: 15px;
+    margin-right: 15px;
+    top: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.buttons img{
+    margin-left: 10px;
+    width: 35px;
+    height: 35px;
+    shadow:
+    0 0 3px 3px rgba(100, 100, 100, 0.6);
+    -moz-shadow:
+    0 0 3px 3px rgba(210, 210, 210, 0.6);
+    -webkit-shadow:
+    0 0 3px 3px rgba(150, 150, 150, 0.6);
+    transition: all ease 0.3s;
+}
+
+.buttons img:active{
+    position: relative;
+    top: 2px;
+    opacity: 0.6;
+}
+
 .push-content{
     min-height: 420px;
 }

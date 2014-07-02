@@ -23,9 +23,13 @@
 </head>
 
 <body>
-    <audio autoplay="autoplay" loop="loop">
+    <audio autoplay="autoplay" id="sound">
         <source src="sounds/MartinGarrix-Animals.mp3" type="audio/mp3">
     </audio>
+    <div class="buttons">
+        <img src="images/Play.png" alt="play" id="play"/>
+        <img src="images/Stop.png" alt="stop" id="stop"/>
+    </div>
     <div id="header-wrapper"></div><!---Header Wrapper-->
     <div class="push-content"></div>
     <main>
@@ -124,6 +128,17 @@
         $(document).ready(function () {
             $('#header-wrapper').load('header-template.html');
         });
+    </script>
+    <script type="text/javascript">
+        window.onload = function(){
+            var stop = document.getElementById('stop');
+            var play = document.getElementById('play');
+            var sound = document.getElementById('sound');
+            stop.addEventListener('click', function() {
+                sound.pause();}, false);
+            play.addEventListener('click', function(){
+                sound.play();}, false)
+        };
     </script>
 </body>
 

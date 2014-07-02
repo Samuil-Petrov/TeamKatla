@@ -24,7 +24,7 @@ html{
             height: 250px;
             position: absolute;
             background-image: url("../images/Wallpaper2.jpg");
-            background-repeat: no-repeat;
+            background-repeat: repeat-x;
             background-size: auto;
             border-bottom: 2px solid rgb(118, 119, 122);
         }
