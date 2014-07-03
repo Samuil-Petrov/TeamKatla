@@ -38,61 +38,83 @@
                 <div class="col-lg-8 col-lg-offset-2 col-md-12">
                     <div class="well shadow">
                         <h2>Изчисли своята лечебна доза</h2>
-						<form method="post" action="calculator.php">
+                        <form method="post" action="calculator.php">
                             <img src="images/no-water.jpg" alt="image" id="image" class="img-circle small-size"/>
-							<div>
+                            <div>
                                 <label  for="bug" class="col-xs-8 col-xs-offset-2">Колко бъга имаше днес?</label>
                                 <input type="text" name="number1" id="bug">
-							</div>
+                            </div>
                             <div>
                                 <label  for="hour" class="col-xs-8 col-xs-offset-2">Колко часа коди</label>
                                 <input type="text" name="number2" id="hour">
                             </div>
-							<div>
+                            <div>
                                 <label  for="opt" class="margin-bottom">Избери си лекарство</label>
-							</div>
-
-								<select name="number3" id="opt" onchange="setImg(this)">
-                                    <option value=""></option>
-									<option value="2">
+                            </div>
+                            <div>
+                                <select name="number3" id="opt" onchange="setImgAndSound(this)">
+                                    <option value="0">---</option>
+                                    <option value="2">
                                         Бира
                                     </option>
-									<option value="1">
+                                    <option value="1">
                                         Ракия
                                     </option>
-								</select>
-							</p>
-							<input type="submit" value="Judge">
-				        </form>
+                                </select>
+                            </div>
+                            <input type="submit" value="Judge">
+                        </form>
+                        <?php
+                            $num1 = $_POST['number1'];
+                            $num2 = $_POST['number2'];
+                            $num3 = $_POST['number3'];
+                            $rakiq = $num1 + $num2;
+                            if ($num1 == 0 && $num2 == 0 ) {
+                                echo '<div>'.'Не се нуждаете от лекарство'.'</div>';
+                                            } else if ($num1 > 0  && $num2 > 0){
+                                            if ($num3 == "1") {
+                                            echo '<div class="result shadow col-lg-10 col-lg-offset-1
+                                                      col-md-10 col-md-offset-1
+                                                      col-sm-12">'.'Нуждаете се от '.$rakiq.' '."ракии на екс".'</div>';
+                                            }
+                                            if ($num3 == "2") {
+                                            echo '<div class="result shadow col-lg-10 col-lg-offset-1
+                                                      col-md-10 col-md-offset-1
+                                                      col-sm-12">'.'Нуждаете се от '.$num1*$num2.' '."Бирички".'</div>';
+                                            }
+
+                                            }
+                        ?>
                     </div>
                 </div>
             </div><!-- /.row -->
         </div><!-- /.container -->
     </main>
+    <div class="push-footer"></div>
     <footer class="site-footer">
         <div class="col-xs-12 visible-xs xs-menu">
             <span><a href="#header-wrapper">Към началото</a></span>
         </div>
         <div class="col-lg-5 footer-menu">
             <div class="
-                        col-lg-8 col-lg-offset-1
-                        col-md-7 col-sm-6 col-xs-7">
+                            col-lg-8 col-lg-offset-1
+                            col-md-7 col-sm-6 col-xs-7">
                 <span><a href="index.html">Начало</a></span>
             </div>
             <div class="col-lg-8 col-lg-offset-1
-                        col-md-7 col-sm-6 col-xs-7">
+                            col-md-7 col-sm-6 col-xs-7">
                 <span><a href="">Минутки за реклама</a></span>
             </div>
             <div class="col-lg-8 col-lg-offset-1
-                        col-md-7 col-sm-6 col-xs-7">
+                            col-md-7 col-sm-6 col-xs-7">
                 <span><a href="i-like-you.html">I лайк you</a></span>
             </div>
             <div class="col-lg-8 col-lg-offset-1
-                        col-md-7 col-sm-6 col-xs-7">
+                            col-md-7 col-sm-6 col-xs-7">
                 <span><a href="validation.html">Валидация</a></span>
             </div>
             <div class="col-lg-8 col-lg-offset-1
-                        col-md-7 col-sm-6 col-xs-7">
+                            col-md-7 col-sm-6 col-xs-7">
                 <span><a href="#">За всеки по нещо</a></span>
             </div>
         </div>
@@ -107,7 +129,7 @@
         });
     </script>
     <script type="text/javascript">
-        function setImg(select){
+        function setImgAndSound(select){
             var imageBox = document.getElementById("image");
             var music = document.getElementById("music");
             var sound = document.getElementById("sound");
@@ -138,20 +160,3 @@
 </body>
 
 </html>
-<?php
-$num1 = $_POST['number1'];
-$num2 = $_POST['number2'];
-$num3 = $_POST['number3'];
-$rakiq = $num1 + $num2;
-if ($num1 == 0 && $num2 == 0 ) {
-    echo '<div>'.'Не се нуждаете от лекарство'.'</div>';
-} else if ($num1 > 0  && $num2 > 0){
-    if ($num3 == "1") {
-        echo '<div>'.'Нуждаете се от '.$rakiq.' '."ракии на екс".'</div>';
-    }
-    if ($num3 == "2") {
-        echo '<div>'.'Нуждаете се от '.$num1*$num2.' '."Бирички".'</div>';
-    }
-    
-}
-?>
